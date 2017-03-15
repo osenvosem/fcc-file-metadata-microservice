@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans")
+    link(rel="stylesheet", type="text/css", href="/styles.css")
+    title Free Code Camp :: File Metadata Microservice
+  body
+    h2 Free Code Camp :: File Metadata Microservice
+    hr
+    h3 Upload a file to get its size
+    form(method="post" enctype="multipart/form-data" action="/file-size")
+      input(type="file" name="file")
+      input(type="submit" label="Upload")

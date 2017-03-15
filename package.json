@@ -1,0 +1,24 @@
+{
+  "name": "fcc-file-metadata-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/osenvosem/fcc-file-metadata-microservice",
+  "author": "Sergey Samsonov <osenvosem@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node",
+    "start:dev": "nodemon"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-body": "2",
+    "koa-compose": "next",
+    "koa-router": "next",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.1",
+    "pug": "^2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
