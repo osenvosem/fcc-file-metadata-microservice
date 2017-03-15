@@ -6,8 +6,8 @@
   "author": "Sergey Samsonov <osenvosem@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node",
-    "start:dev": "nodemon"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "dependencies": {
     "koa": "^2.2.0",
