@@ -1,4 +1,4 @@
-const home = require('./home')
-const compose = require('koa-compose')
+const home = require("./home");
+const compose = require("koa-compose");
 
-module.exports = compose([home.routes(), home.allowedMethods()])
+module.exports = compose([home.routes(), home.allowedMethods()]);
